@@ -1,0 +1,9 @@
+D:\STUDY\term 3\6236\C#\A5_Server_QiMeng\A5_Client_Sandy\bin\Debug\A5_Client_Sandy.exe.config
+D:\STUDY\term 3\6236\C#\A5_Server_QiMeng\A5_Client_Sandy\bin\Debug\A5_Client_Sandy.exe
+D:\STUDY\term 3\6236\C#\A5_Server_QiMeng\A5_Client_Sandy\bin\Debug\A5_Client_Sandy.pdb
+D:\STUDY\term 3\6236\C#\A5_Server_QiMeng\A5_Client_Sandy\obj\Debug\A5_Client_Sandy.Form1.resources
+D:\STUDY\term 3\6236\C#\A5_Server_QiMeng\A5_Client_Sandy\obj\Debug\A5_Client_Sandy.Properties.Resources.resources
+D:\STUDY\term 3\6236\C#\A5_Server_QiMeng\A5_Client_Sandy\obj\Debug\A5_Client_Sandy.csproj.GenerateResource.Cache
+D:\STUDY\term 3\6236\C#\A5_Server_QiMeng\A5_Client_Sandy\obj\Debug\A5_Client_Sandy.exe
+D:\STUDY\term 3\6236\C#\A5_Server_QiMeng\A5_Client_Sandy\obj\Debug\A5_Client_Sandy.pdb
+D:\STUDY\term 3\6236\C#\A5_Server_QiMeng\A5_Client_Sandy\obj\Debug\A5_Client_Sandy.Form2.resources

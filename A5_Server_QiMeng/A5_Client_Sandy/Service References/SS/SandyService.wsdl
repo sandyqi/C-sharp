@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="SandyService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:65146/SandyService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:65146/SandyService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:65146/SandyService.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="SandyServiceInterface_readTable_InputMessage">
+    <wsdl:part name="parameters" element="tns:readTable" />
+  </wsdl:message>
+  <wsdl:message name="SandyServiceInterface_readTable_OutputMessage">
+    <wsdl:part name="parameters" element="tns:readTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="SandyServiceInterface_listPurchases_InputMessage">
+    <wsdl:part name="parameters" element="tns:listPurchases" />
+  </wsdl:message>
+  <wsdl:message name="SandyServiceInterface_listPurchases_OutputMessage">
+    <wsdl:part name="parameters" element="tns:listPurchasesResponse" />
+  </wsdl:message>
+  <wsdl:message name="SandyServiceInterface_runSelect_InputMessage">
+    <wsdl:part name="parameters" element="tns:runSelect" />
+  </wsdl:message>
+  <wsdl:message name="SandyServiceInterface_runSelect_OutputMessage">
+    <wsdl:part name="parameters" element="tns:runSelectResponse" />
+  </wsdl:message>
+  <wsdl:message name="SandyServiceInterface_placeOrder_InputMessage">
+    <wsdl:part name="parameters" element="tns:placeOrder" />
+  </wsdl:message>
+  <wsdl:message name="SandyServiceInterface_placeOrder_OutputMessage">
+    <wsdl:part name="parameters" element="tns:placeOrderResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SandyServiceInterface">
+    <wsdl:operation name="readTable">
+      <wsdl:input wsaw:Action="http://tempuri.org/SandyServiceInterface/readTable" message="tns:SandyServiceInterface_readTable_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/SandyServiceInterface/readTableResponse" message="tns:SandyServiceInterface_readTable_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="listPurchases">
+      <wsdl:input wsaw:Action="http://tempuri.org/SandyServiceInterface/listPurchases" message="tns:SandyServiceInterface_listPurchases_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/SandyServiceInterface/listPurchasesResponse" message="tns:SandyServiceInterface_listPurchases_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="runSelect">
+      <wsdl:input wsaw:Action="http://tempuri.org/SandyServiceInterface/runSelect" message="tns:SandyServiceInterface_runSelect_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/SandyServiceInterface/runSelectResponse" message="tns:SandyServiceInterface_runSelect_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="placeOrder">
+      <wsdl:input wsaw:Action="http://tempuri.org/SandyServiceInterface/placeOrder" message="tns:SandyServiceInterface_placeOrder_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/SandyServiceInterface/placeOrderResponse" message="tns:SandyServiceInterface_placeOrder_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_SandyServiceInterface" type="tns:SandyServiceInterface">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="readTable">
+      <soap:operation soapAction="http://tempuri.org/SandyServiceInterface/readTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listPurchases">
+      <soap:operation soapAction="http://tempuri.org/SandyServiceInterface/listPurchases" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="runSelect">
+      <soap:operation soapAction="http://tempuri.org/SandyServiceInterface/runSelect" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="placeOrder">
+      <soap:operation soapAction="http://tempuri.org/SandyServiceInterface/placeOrder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SandyService">
+    <wsdl:port name="BasicHttpBinding_SandyServiceInterface" binding="tns:BasicHttpBinding_SandyServiceInterface">
+      <soap:address location="http://localhost:65146/SandyService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

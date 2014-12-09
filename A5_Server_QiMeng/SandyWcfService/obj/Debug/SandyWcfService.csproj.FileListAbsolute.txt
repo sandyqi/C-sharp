@@ -1,0 +1,6 @@
+D:\STUDY\term 3\6236\C#\A5_Server_QiMeng\SandyWcfService\bin\SandyWcfService.dll
+D:\STUDY\term 3\6236\C#\A5_Server_QiMeng\SandyWcfService\bin\SandyWcfService.pdb
+D:\STUDY\term 3\6236\C#\A5_Server_QiMeng\SandyWcfService\bin\AdoLib_QiMeng.dll
+D:\STUDY\term 3\6236\C#\A5_Server_QiMeng\SandyWcfService\bin\AdoLib_QiMeng.pdb
+D:\STUDY\term 3\6236\C#\A5_Server_QiMeng\SandyWcfService\obj\Debug\SandyWcfService.dll
+D:\STUDY\term 3\6236\C#\A5_Server_QiMeng\SandyWcfService\obj\Debug\SandyWcfService.pdb

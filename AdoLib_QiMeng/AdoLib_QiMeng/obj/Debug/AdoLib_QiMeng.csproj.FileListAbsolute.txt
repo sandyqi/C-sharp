@@ -1,0 +1,4 @@
+D:\STUDY\term 3\6236\C#\AdoLib_QiMeng\AdoLib_QiMeng\bin\Debug\AdoLib_QiMeng.dll
+D:\STUDY\term 3\6236\C#\AdoLib_QiMeng\AdoLib_QiMeng\bin\Debug\AdoLib_QiMeng.pdb
+D:\STUDY\term 3\6236\C#\AdoLib_QiMeng\AdoLib_QiMeng\obj\Debug\AdoLib_QiMeng.dll
+D:\STUDY\term 3\6236\C#\AdoLib_QiMeng\AdoLib_QiMeng\obj\Debug\AdoLib_QiMeng.pdb
